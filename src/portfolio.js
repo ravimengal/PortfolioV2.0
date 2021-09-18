@@ -230,34 +230,108 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME STARTUPS AND PERSONAL PROJECTS THAT I HAVE CREATED TO ENHANCE MY PROGRAMMING SKILLS ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo.png"),
+      projectName: "CaSSa Kitchens MODULAR FURNISHING",
+      projectDesc: "I have created demo site for cassa kitchen modular furnishing interior designer. Using some basic javascript , html , css created demo site for startup that help them to create business ready website",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://cassakitchen.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Password.png"),
+      projectName: "Password Generator",
+      projectDesc: "Strong Password Generator to create secure passwords that are impossible to crack ",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://pickpassword.netlify.app"
         }
+        
+      ]
+    },
+    {
+      image: require("./assets/images/net.png"),
+      projectName: "Netflix Clone",
+      projectDesc: "Netflix Clone using react using TMDB API",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://netliyflix.netlify.app"
+        }
+        
+      ]
+    },
+    {
+      image: require("./assets/images/firebase1.png"),
+      projectName: "Firebase authentication",
+      projectDesc: "Using React and firebase created simple authentication page",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://reactauthentication.netlify.app"
+        }
+        
+      ]
+    },
+    {
+      image: require("./assets/images/to.png"),
+      projectName: "To Do",
+      projectDesc: "Using React and Firebase created todo app with authentication . User must login first to create todo list.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://makemyworkeasy.netlify.app"
+        }
+        
+      ]
+    },
+    {
+      image: require("./assets/images/weather1.png"),
+      projectName: "Weather app",
+      projectDesc: "Weather app using openweather API, Axios User can search weather by entering city , state, country name. ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://weathernearme.netlify.app/"
+        }
+        
+      ]
+    },
+    {
+      image: require("./assets/images/calc1.png"),
+      projectName: "Calculator",
+      projectDesc: "Simple calculator for practice",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ecmacalculator.netlify.app"
+        }
+        
+      ]
+    },
+    {
+      image: require("./assets/images/j.png"),
+      projectName: "Joke fetching app",
+      projectDesc: "Joke fetching app using free joke api,axios for practice .",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://jokelify.netlify.app"
+        }
+        
       ]
     }
+
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
