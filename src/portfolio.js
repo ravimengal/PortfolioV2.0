@@ -195,7 +195,20 @@ const workExperiences = {
       descBullets: [
         "On-Field Work",
         "Custom building applications",
-        "Coaching",
+       
+      ]
+    },
+    {
+      role: "ASSOCIATE OPS (KIWI.COM)",
+      company: "WNS GLOBAL SERVICES",
+      companylogo: require("./assets/images/wns.png"),
+      date: "DEC 2019 – JAN 2020",
+      desc:"Kiwi.com (previously known as skypicker.com) . Kiwi.com provides a fare aggregator, metasearch engine and booking for airline tickets and ground transportation",
+      descBullets: [
+        "Customer handling",
+        "Booking for Airline",
+        "Order processing",
+        "Ticket Raising"
       ]
     }
     // {
